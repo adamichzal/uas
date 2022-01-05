@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost/compro-ci4-javawebmedia/';
+    public $baseURL = 'http://localhost/uas/';
 
     /**
      * --------------------------------------------------------------------------
