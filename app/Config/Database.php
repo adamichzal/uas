@@ -32,10 +32,10 @@ class Database extends Config
      */
     public $default = [
         'DSN'      => '',
-        'hostname' => 'localhost',
-        'username' => 'root',
-        'password' => '',
-        'database' => 'compro-ci-4-javawebmedia',
+        'hostname' => '103.145.227.164',
+        'username' => 'dulusaya_yuhu',
+        'password' => 'admin1234',
+        'database' => 'dulusaya_uas',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
