@@ -99,7 +99,6 @@ foreach ($profil as $profil) { ?>
       </div>
     </section><!-- End About Us Section -->
 
-
     <?php include 'berita.php'?>
 
 
