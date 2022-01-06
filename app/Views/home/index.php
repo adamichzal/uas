@@ -83,7 +83,7 @@ foreach ($profil as $profil) { ?>
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>About <?= $konfigurasi['namaweb'] ?></h2>
+          <h2>About Us</h2>
          <?= $konfigurasi['deskripsi'] ?>
         </div>
 
@@ -99,31 +99,6 @@ foreach ($profil as $profil) { ?>
       </div>
     </section><!-- End About Us Section -->
 
-
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services services">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Layanan Kami</h2>
-          <p>Yuk gunakan layanan yang ada di <?= namaweb() ?>. <?= tagline() ?></p>
-        </div>
-
-        <div class="row">
-          <?php $ml = 1;
-
-foreach ($layanan as $layanan) { ?>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="<?= $ml; ?>00">
-            <div class="icon"><i class="<?= $layanan['icon'] ?>"></i></div>
-            <h4 class="title"><a href="<?= base_url('berita/layanan/' . $layanan['slug_berita']) ?>"><?= $layanan['judul_berita'] ?></a></h4>
-            <p class="description"><?= $layanan['ringkasan'] ?></p>
-          </div>
-          <?php $ml++; } ?>
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
 
     <?php include 'berita.php'?>
 
