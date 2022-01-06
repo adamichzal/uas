@@ -16,10 +16,6 @@
     <section id="gallery" class="gallery">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <h2><?= $title ?></h2>
-          <p><?= $konfigurasi['tentang'] ?></p>
-        </div>
 
         <div class="gallery-slider swiper-container">
           <div class="swiper-wrapper align-items-center">
