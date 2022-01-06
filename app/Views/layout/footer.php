@@ -17,55 +17,7 @@ $menu_layanan = $menu->layanan();
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6">
-            <div class="footer-info">
-              <h3><?= $site['namaweb'] ?></h3>
-              <p>
-                <?= nl2br(strip_tags($site['alamat'])) ?>
-                <br>
-                <strong>Phone:</strong> <?= $site['telepon'] ?><br>
-                <strong>Email:</strong> <?= $site['email'] ?><br>
-              </p>
-              <div class="social-links mt-3">
-                <a href="<?= $site['twitter'] ?>" class="twitter"><i class="fab fa-twitter"></i></a>
-                <a href="<?= $site['facebook'] ?>" class="facebook"><i class="fab fa-facebook"></i></a>
-                <a href="<?= $site['instagram'] ?>" class="instagram"><i class="fab fa-instagram"></i></a>
-                <a href="<?= $site['youtube'] ?>" class="google-plus"><i class="fab fa-youtube"></i></a>
-
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>About Us</h4>
-            <ul>
-              <?php foreach ($menu_profil as $menu_profil) { ?>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url('berita/profil/' . $menu_profil['slug_berita']) ?>"><?= $menu_profil['judul_berita'] ?></a></li>
-              <?php } ?>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url('staff') ?>">Staff &amp; Team Kami</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <?php foreach ($menu_layanan as $menu_layanan) { ?>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url('berita/layanan/' . $menu_layanan['slug_berita']) ?>"><?= $menu_layanan['judul_berita'] ?></a></li>
-              <?php } ?>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Find Us on Map</h4>
-            <style type="text/css" media="screen">
-              iframe {
-                width: 100%;
-                height: 200px;
-              }
-            </style>
-            <?= $site['google_map'] ?>
-
-          </div>
+          
 
         </div>
       </div>
@@ -73,14 +25,14 @@ $menu_layanan = $menu->layanan();
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Java Web Media</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Dulu Sayang </span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medicio-free-bootstrap-theme/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://bootstrapmade.com/">Kelompok Dulu Sayang</a>
       </div>
     </div>
   </footer><!-- End Footer -->
