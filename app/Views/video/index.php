@@ -13,6 +13,10 @@
   </section><!-- End Breadcrumbs Section -->
 
   <!-- ======= Contact Section ======= -->
+  <div class="section-title">
+          <h2><?= $title ?></h2>
+
+        </div>
   <section id="contact" class="contact">
     <div class="container">
       <div class="row mt-5">
