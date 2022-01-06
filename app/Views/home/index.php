@@ -127,16 +127,4 @@ foreach ($layanan as $layanan) { ?>
 
     <?php include 'berita.php'?>
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div>
-        <style type="text/css" media="screen">
-          iframe {
-            min-height: 300px;
-            width: 100%;
-          }
-        </style>
-        <?= google_map() ?>
-      </div>
-    </section><!-- End Contact Section -->
-</main><!-- End #main -->
+
