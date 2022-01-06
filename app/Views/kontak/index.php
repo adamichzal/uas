@@ -2,17 +2,6 @@
 
   <!-- ======= Breadcrumbs Section ======= -->
   <section class="breadcrumbs">
-    <div class="container">
-
-      <div class="d-flex justify-content-between align-items-center">
-        <h2><?= $title ?></h2>
-        <ol>
-          <li><a href="<?= base_url() ?>">Home</a></li>
-          <li><?= $title ?></li>
-        </ol>
-      </div>
-
-    </div>
   </section><!-- End Breadcrumbs Section -->
 
   <!-- ======= Contact Section ======= -->
@@ -38,21 +27,21 @@
               <div class="col-md-12">
                 <div class="info-box">
                   <i class="bx bx-map"></i>
-                  <h3>Alamat Kami:</h3>
+                  <h3>Address</h3>
                   <p><?= nl2br($konfigurasi['alamat']) ?></p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box mt-4">
                   <i class="bx bx-envelope"></i>
-                  <h3>Email Kami:</h3>
+                  <h3>Email Us</h3>
                   <p><?= nl2br($konfigurasi['email']) ?></p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box mt-4">
                   <i class="bx bx-phone-call"></i>
-                  <h3>Telepon Kami:</h3>
+                  <h3>Call Center</h3>
                   <p><?= nl2br($konfigurasi['telepon']) ?></p>
                 </div>
               </div>
