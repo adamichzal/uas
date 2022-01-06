@@ -15,7 +15,7 @@ class Video extends BaseController
         $konfigurasi   = $m_konfigurasi->listing();
         $video         = $m_video->listing();
 
-        $data = ['title'  => 'Video File',
+        $data = ['title'  => 'Catalog Video',
             'description' => 'Video File ' . $konfigurasi['namaweb'] . ', ' . $konfigurasi['tentang'],
             'keywords'    => 'Video File ' . $konfigurasi['namaweb'] . ', ' . $konfigurasi['keywords'],
             'video'       => $video,
