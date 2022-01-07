@@ -12,7 +12,7 @@
             ?>
 			<input type="hidden" name="id_user" value="<?= $user['id_user'] ?>">
 			<div class="form-group row">
-				<label class="col-3">Nama Pengguna</label>
+				<label class="col-3">Profile's Name</label>
 				<div class="col-9">
 					<input type="text" name="nama" class="form-control" placeholder="Nama user" value="<?= $user['nama'] ?>" required>
 				</div>
@@ -36,12 +36,12 @@
 				<label class="col-3">Password</label>
 				<div class="col-9">
 					<input type="text" name="password" class="form-control" placeholder="Password" value="">
-					<small class="text-danger">Minimal 6 karakter dan maksimal 32 karakter atau biarkan kosong</small>
+					<small class="text-danger">Minimum of 6 characters and maximum of 32 characters or leave empty</small>
 				</div>
 			</div>
 
 			<div class="form-group row">
-				<label class="col-3">Upload Foto profil</label>
+				<label class="col-3">Upload Profil Photo</label>
 				<div class="col-9">
 					<input type="file" name="gambar" class="form-control">
 				</div>
@@ -50,7 +50,7 @@
 			<div class="form-group row">
 				<label class="col-3"></label>
 				<div class="col-9">
-					<button type="submit" class="btn btn-success"><i class="fa fa-save"></i> Simpan</button>
+					<button type="submit" class="btn btn-success"><i class="fa fa-save"></i> Save</button>
 				</div>
 			</div>
 

@@ -49,7 +49,7 @@ class Konfigurasi extends BaseController
 
             return redirect()->to(base_url('admin/konfigurasi'));
         }
-        $data = ['title'  => 'Konfigurasi Website',
+        $data = ['title'  => 'Config Web',
             'konfigurasi' => $konfigurasi,
             'content'     => 'admin/konfigurasi/index',
         ];
@@ -125,7 +125,7 @@ class Konfigurasi extends BaseController
             return redirect()->to(base_url('admin/konfigurasi/logo'));
         }
         // End validasi
-        $data = ['title'  => 'Update Logo',
+        $data = ['title'  => 'Update Web Logo',
             'konfigurasi' => $konfigurasi,
             'content'     => 'admin/konfigurasi/logo',
         ];
@@ -169,7 +169,7 @@ class Konfigurasi extends BaseController
             return redirect()->to(base_url('admin/konfigurasi/icon'));
         }
         // End validasi
-        $data = ['title'  => 'Update Icon',
+        $data = ['title'  => 'Update Icon Website',
             'konfigurasi' => $konfigurasi,
             'content'     => 'admin/konfigurasi/icon',
         ];
