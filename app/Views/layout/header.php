@@ -50,9 +50,5 @@ $menu_layanan = $menu->layanan();
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="<?= base_url('login') ?>" class="appointment-btn scrollto">
-        Admin
-      </a>
-
     </div>
   </header><!-- End Header -->
