@@ -83,7 +83,7 @@ class Galeri extends BaseController
             return redirect()->to(base_url('admin/galeri'))->with('sukses', 'Data Berhasil di Simpan');
         }
 
-        $data = ['title'      => 'Tambah Galeri',
+        $data = ['title'      => 'Add Catalogue',
             'kategori_galeri' => $kategori_galeri,
             'content'         => 'admin/galeri/tambah',
         ];
