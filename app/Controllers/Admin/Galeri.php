@@ -149,7 +149,7 @@ class Galeri extends BaseController
             return redirect()->to(base_url('admin/galeri'))->with('sukses', 'Data Berhasil di Simpan');
         }
 
-        $data = ['title'      => 'Edit Galeri: ' . $galeri['judul_galeri'],
+        $data = ['title'      => 'Edit Catalogue: ' . $galeri['judul_galeri'],
             'kategori_galeri' => $kategori_galeri,
             'galeri'          => $galeri,
             'content'         => 'admin/galeri/edit',
