@@ -4,7 +4,7 @@
 
 <input type="hidden" name="id_konfigurasi" value="<?= $konfigurasi['id_konfigurasi'] ?>">
 <div class="form-group row">
-	<label class="col-3">Upload Icon Baru</label>
+	<label class="col-3">Upload New Icon</label>
 	<div class="col-6">
 		<input type="file" name="icon" value="<?= $konfigurasi['icon'] ?>" class="form-control">
 		<small class="text-secondary">Format: JPG, PNG, GIF</small>
