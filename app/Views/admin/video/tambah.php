@@ -1,6 +1,6 @@
 <p>
-	<button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal-default">
-		<i class="fa fa-plus"></i> Tambah Baru
+	<button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal-default" style="background-color:#c4c0c1; border:none" >
+		<i class="fa fa-plus" ></i> Add New Content
 	</button>
 </p>
 <?= form_open(base_url('admin/video'));

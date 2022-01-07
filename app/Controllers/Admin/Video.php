@@ -33,7 +33,7 @@ class Video extends BaseController
 
             return redirect()->to(base_url('admin/video'));
         }
-        $data = ['title' => 'Video Youtube: ' . $total['total'],
+        $data = ['title' => 'Video Review = ' . $total['total'],
             'video'      => $video,
             'content'    => 'admin/video/index',
         ];
