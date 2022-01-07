@@ -3,23 +3,23 @@ echo csrf_field();
 ?>
 
 <div class="form-group row">
-	<label class="col-3">Nama Kategori</label>
+	<label class="col-3">Category Name</label>
 	<div class="col-9">
-		<input type="text" name="nama_kategori" class="form-control" placeholder="Nama kategori" value="<?= $kategori['nama_kategori'] ?>" required>
+		<input type="text" name="nama_kategori" class="form-control" placeholder="Category Name" value="<?= $kategori['nama_kategori'] ?>" required>
 	</div>
 </div>
 
 <div class="form-group row">
-	<label class="col-3">Nomor urut Kategori</label>
+	<label class="col-3">Sequence</label>
 	<div class="col-9">
-		<input type="number" name="urutan" class="form-control" placeholder="Nomor urut kategori" value="<?= $kategori['urutan'] ?>" required>
+		<input type="number" name="urutan" class="form-control" placeholder="Sequence" value="<?= $kategori['urutan'] ?>" required>
 	</div>
 </div>
 
 <div class="form-group row">
 	<label class="col-3"></label>
 	<div class="col-9">
-		<button type="submit" class="btn btn-success"><i class="fa fa-save"></i> Simpan</button>
+		<button type="submit" class="btn btn-success"><i class="fa fa-save"></i> Save</button>
 	</div>
 </div>
 

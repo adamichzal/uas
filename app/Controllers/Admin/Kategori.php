@@ -33,7 +33,7 @@ class Kategori extends BaseController
 
             return redirect()->to(base_url('admin/kategori'));
         }
-        $data = ['title' => 'Kategori Berita, Profil &amp; Layanan: ' . $total['total'],
+        $data = ['title' => 'Category Content',
             'kategori'   => $kategori,
             'content'    => 'admin/kategori/index',
         ];
@@ -67,7 +67,7 @@ class Kategori extends BaseController
 
             return redirect()->to(base_url('admin/kategori'));
         }
-        $data = ['title' => 'Edit kategori berita: ' . $kategori['nama_kategori'],
+        $data = ['title' => 'Edit Category Content',
             'kategori'   => $kategori,
             'content'    => 'admin/kategori/edit',
         ];

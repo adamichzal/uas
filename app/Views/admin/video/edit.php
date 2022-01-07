@@ -3,7 +3,7 @@ echo csrf_field();
 ?>
 
 <div class="form-group row">
-	<label class="col-3">Nama Video</label>
+	<label class="col-3">Video Name</label>
 	<div class="col-9">
 		<input type="text" name="judul" class="form-control" placeholder="Nama video" value="<?= $video['judul'] ?>" required>
 	</div>
@@ -18,7 +18,7 @@ echo csrf_field();
 </div>
 
 <div class="form-group row">
-	<label class="col-3">Keterangan</label>
+	<label class="col-3">Description</label>
 	<div class="col-9">
 		<textarea name="keterangan" class="form-control"><?= $video['keterangan'] ?></textarea>
 	</div>
@@ -27,7 +27,7 @@ echo csrf_field();
 <div class="form-group row">
 	<label class="col-3"></label>
 	<div class="col-9">
-		<button type="submit" class="btn btn-success"><i class="fa fa-save"></i> Simpan</button>
+		<button type="submit" class="btn btn-success"><i class="fa fa-save"></i> Save</button>
 	</div>
 </div>
 

@@ -2,11 +2,11 @@
 <table class="table table-bordered" id="example1">
 	<thead>
 		<tr>
-			<th width="5%">No</th>
-			<th width="25%">Nama</th>
-			<th width="25%">Slug</th>
-			<th width="25%">Urutan</th>
-			<th></th>
+			<th style="text-align:center; width="5%">No</th>
+			<th style="text-align:center; width="25%">Name</th>
+			<th style="text-align:center; width="25%">Value</th>
+			<th style="text-align:center; width="25%">Sequence</th>
+			<th style="text-align:center; width="25%">Action</th>
 		</tr>
 	</thead>
 	<tbody>

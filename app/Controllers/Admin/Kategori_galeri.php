@@ -33,7 +33,7 @@ class Kategori_galeri extends BaseController
 
             return redirect()->to(base_url('admin/kategori_galeri'));
         }
-        $data = ['title'      => 'Kategori Galeri: ' . $total['total'],
+        $data = ['title'      => 'Category Catalogue',
             'kategori_galeri' => $kategori_galeri,
             'content'         => 'admin/kategori_galeri/index',
         ];
@@ -67,7 +67,7 @@ class Kategori_galeri extends BaseController
 
             return redirect()->to(base_url('admin/kategori_galeri'));
         }
-        $data = ['title'      => 'Edit Kategori Galeri: ' . $kategori_galeri['nama_kategori_galeri'],
+        $data = ['title'      => 'Edit Category Catalogue',
             'kategori_galeri' => $kategori_galeri,
             'content'         => 'admin/kategori_galeri/edit',
         ];

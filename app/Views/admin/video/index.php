@@ -3,10 +3,10 @@
 	<thead>
 		<tr>
 			<th width="5%">No</th>
-			<th width="25%">Judul</th>
 			<th width="25%">Video</th>
-			<th width="25%">Keterangan</th>
-			<th></th>
+			<th width="25%">Title</th>
+			<th width="25%">Description</th>
+			<th width="25%">Action</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -15,12 +15,12 @@
 foreach ($video as $video) { ?>
 		<tr>
 			<td><?= $no ?></td>
-			<td><?= $video['judul'] ?></td>
 			<td><?= $video['video'] ?>
 				<br>
 				<div class="embed-responsive embed-responsive-16by9">
 				  <iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/<?= $video['video'] ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
+			<td><?= $video['judul'] ?></td>
 			</td>
 			<td><?= $video['keterangan'] ?></td>
 			<td>
