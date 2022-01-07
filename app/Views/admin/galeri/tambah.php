@@ -17,7 +17,7 @@
 </div>
 
 <div class="form-group row">
-	<label class="col-md-2">Category, Type &amp; Status</label>
+	<label class="col-md-2">Category, Types &amp; Status</label>
 	<div class="col-md-3">
 		<select name="id_kategori_galeri" class="form-control">
 			<?php foreach ($kategori_galeri as $kategori_galeri) { ?>
@@ -26,26 +26,26 @@
 			</option>
 			<?php } ?>
 		</select>
-		<small class="text-secondary">Kategori</small>
+		<small class="text-secondary">Category</small>
 	</div>
 	<div class="col-md-3">
 		<select name="jenis_galeri" class="form-control">
 			<option value="Galeri">Galeri</option>
 			<option value="Homepage">Homepage Slider</option>
 		</select>
-		<small class="text-secondary">Jenis konten</small>
+		<small class="text-secondary">Type</small>
 	</div>
 	<div class="col-md-3">
 		<select name="status_text" class="form-control">
-			<option value="Ya">Available</option>
-			<option value="Tidak">Unavailable</option>
+			<option value="Ya">Aktif</option>
+			<option value="Tidak">Tidak Aktif</option>
 		</select>
-		<small class="text-secondary">Text pada slider</small>
+		<small class="text-secondary">Status</small>
 	</div>
 </div>
 
 <div class="form-group row">
-	<label class="col-md-2">Description</label>
+	<label class="col-md-2">Isi Galeri</label>
 	<div class="col-md-10">
 		<textarea name="isi" class="form-control konten"><?= set_value('isi') ?></textarea>
 	</div>
