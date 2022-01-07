@@ -44,7 +44,7 @@ $site        = $konfigurasi->listing();
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-newspaper"></i>
-              <p>Berita, Profil &amp; Layanan
+              <p>Outlet, Article &amp; Banner
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -52,19 +52,19 @@ $site        = $konfigurasi->listing();
               <li class="nav-item">
                 <a href="<?= base_url('admin/berita') ?>" class="nav-link">
                   <i class="fas fa-table nav-icon"></i>
-                  <p>Data Berita/Profil</p>
+                  <p>All Data</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="<?= base_url('admin/berita/tambah') ?>" class="nav-link">
                   <i class="fas fa-plus nav-icon"></i>
-                  <p>Tambah Berita/Profil</p>
+                  <p>Add Data</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="<?= base_url('admin/kategori') ?>" class="nav-link">
                   <i class="fas fa-tags nav-icon"></i>
-                  <p>Kategori Berita/Profil</p>
+                  <p>Category</p>
                 </a>
               </li>
             </ul>
@@ -73,7 +73,7 @@ $site        = $konfigurasi->listing();
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-image"></i>
-              <p>Galeri &amp; Banner
+              <p>Catalogue
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -98,40 +98,11 @@ $site        = $konfigurasi->listing();
               </li>
             </ul>
           </li>
-          <!-- Download -->
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-download"></i>
-              <p>Data File Download
-                <i class="fas fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="<?= base_url('admin/download') ?>" class="nav-link">
-                  <i class="fas fa-table nav-icon"></i>
-                  <p>Data File Download</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="<?= base_url('admin/download/tambah') ?>" class="nav-link">
-                  <i class="fas fa-plus nav-icon"></i>
-                  <p>Tambah File Download</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="<?= base_url('admin/kategori_download') ?>" class="nav-link">
-                  <i class="fas fa-tags nav-icon"></i>
-                  <p>Kategori File Download</p>
-                </a>
-              </li>
-            </ul>
-          </li>
           <!-- Video -->
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fab fa-youtube"></i>
-              <p>Data Video Youtube
+              <p>Catalogue Review
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -152,52 +123,16 @@ $site        = $konfigurasi->listing();
           </li>
           <!-- pengguna -->
           <li class="nav-item">
-            <a href="<?= base_url('admin/client') ?>" class="nav-link">
-              <i class="nav-icon fas fa-tasks"></i>
-              <p>Clients &amp; Portfolio</p>
-            </a>
-          </li>
-          <!-- Staff -->
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-image"></i>
-              <p>Staff &amp; Team
-                <i class="fas fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="<?= base_url('admin/staff') ?>" class="nav-link">
-                  <i class="fas fa-table nav-icon"></i>
-                  <p>Data Staff/Team</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="<?= base_url('admin/staff/tambah') ?>" class="nav-link">
-                  <i class="fas fa-plus nav-icon"></i>
-                  <p>Tambah Staff/Team</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="<?= base_url('admin/kategori_staff') ?>" class="nav-link">
-                  <i class="fas fa-tags nav-icon"></i>
-                  <p>Kategori Staff/Team</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <!-- pengguna -->
-          <li class="nav-item">
             <a href="<?= base_url('admin/user') ?>" class="nav-link">
               <i class="nav-icon fas fa-lock"></i>
-              <p>Pengguna Website</p>
+              <p>Users</p>
             </a>
           </li>
           <!-- Konfigurasi -->
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-wrench"></i>
-              <p>Setting Website
+              <p>Config Web
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -227,13 +162,6 @@ $site        = $konfigurasi->listing();
                 </a>
               </li>
             </ul>
-          </li>
-          <!-- panduan -->
-          <li class="nav-item">
-            <a href="<?= base_url('admin/panduan') ?>" class="nav-link">
-              <i class="nav-icon fas fa-file-pdf"></i>
-              <p>Panduan &amp; Manual Book</p>
-            </a>
           </li>
           <!-- logout -->
           <li class="nav-item">
