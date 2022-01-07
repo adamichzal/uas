@@ -81,19 +81,19 @@ $site        = $konfigurasi->listing();
               <li class="nav-item">
                 <a href="<?= base_url('admin/galeri') ?>" class="nav-link">
                   <i class="fas fa-table nav-icon"></i>
-                  <p>Data Galeri/Banner</p>
+                  <p>All Data</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="<?= base_url('admin/galeri/tambah') ?>" class="nav-link">
                   <i class="fas fa-plus nav-icon"></i>
-                  <p>Tambah Galeri/Banner</p>
+                  <p>Add Data</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="<?= base_url('admin/kategori_galeri') ?>" class="nav-link">
                   <i class="fas fa-tags nav-icon"></i>
-                  <p>Kategori Galeri/Banner</p>
+                  <p>Category</p>
                 </a>
               </li>
             </ul>
@@ -110,13 +110,13 @@ $site        = $konfigurasi->listing();
               <li class="nav-item">
                 <a href="<?= base_url('admin/video') ?>" class="nav-link">
                   <i class="fas fa-table nav-icon"></i>
-                  <p>Data Video Youtube</p>
+                  <p>All Video</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="<?= base_url('admin/video/tambah') ?>" class="nav-link">
                   <i class="fas fa-plus nav-icon"></i>
-                  <p>Tambah Video Youtube</p>
+                  <p>Add Video</p>
                 </a>
               </li>
             </ul>
@@ -140,7 +140,7 @@ $site        = $konfigurasi->listing();
               <li class="nav-item">
                 <a href="<?= base_url('admin/konfigurasi') ?>" class="nav-link">
                   <i class="fas fa-tasks nav-icon"></i>
-                  <p>Konfigurasi Umum</p>
+                  <p>Config</p>
                 </a>
               </li>
               <li class="nav-item">
@@ -153,12 +153,6 @@ $site        = $konfigurasi->listing();
                 <a href="<?= base_url('admin/konfigurasi/icon') ?>" class="nav-link">
                   <i class="fas fa-leaf nav-icon"></i>
                   <p>Update Icon</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="<?= base_url('admin/konfigurasi/seo') ?>" class="nav-link">
-                  <i class="fab fa-google nav-icon"></i>
-                  <p>Setting SEO &amp; Metatext</p>
                 </a>
               </li>
             </ul>
