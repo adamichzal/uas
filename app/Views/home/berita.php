@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row mt-5">
         <div class="col-md-12 text-center">
-          <h2>Berita Terbaru</h2>
+          <h2>Artikel</h2>
           <hr>
         </div>
         <?php foreach ($berita2 as $berita2) { ?>
@@ -19,8 +19,8 @@
               </p>
               <hr>
               <p>
-                <a href="<?= base_url('berita/read/' . $berita2['slug_berita']) ?>" class="btn btn-success">
-                  <i class="fa fa-chevron-right"></i>  Baca...
+                <a href="<?= base_url('berita/read/' . $berita2['slug_berita']) ?>" class="btn btn-success" style="background-color:#c4c0c1; border:none">
+                  <i class="fa fa-chevron-right"></i>  Read More
                 </a>
               </p>
             </div>

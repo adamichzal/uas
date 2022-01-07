@@ -6,12 +6,6 @@ $sidebar  = $m_berita->sidebar();
 <main id="main">
   <!-- ======= Breadcrumbs Section ======= -->
   <section class="breadcrumbs">
-    <div class="container">
-      <div class="d-flex justify-content-between align-items-center">
-        <h2><?= $title ?></h2>
-
-      </div>
-    </div>
   </section><!-- End Breadcrumbs Section -->
 
   <!-- ======= Contact Section ======= -->
@@ -31,7 +25,7 @@ $sidebar  = $m_berita->sidebar();
           <div class="col-md-4">
             <div class="card">
               <div class="card-header">
-                <h3>Berita Lainnya</h3>
+                <h3>Artikel Terkait</h3>
               </div>
               <div class="card-body">
                 <?php foreach ($sidebar as $sidebar) { ?>

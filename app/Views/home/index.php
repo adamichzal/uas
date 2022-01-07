@@ -21,7 +21,7 @@ foreach ($slider as $slider) {  ?>
     echo ' active';
 } ?>" style="background-image: url(<?= base_url('assets/upload/image/' . $slider['gambar']) ?>)">
           <?php if ($slider['status_text'] === 'Ya') {  ?>
-          <div class="container" style="max-width: 70%; text-align: left; padding-left: 2%; padding-right: 2%;">
+          <div class="container" style="max-width: 50%; text-align: center; padding-left: 2%; padding-right: 2%;">
                 <h2><?= $slider['judul_galeri'] ?></h2>
                 <p><?= $slider['isi'] ?></p>
                 <a href="<?= $slider['website'] ?>" class="btn-get-started scrollto">Read More</a>
