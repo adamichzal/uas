@@ -4,7 +4,7 @@
 
 <input type="hidden" name="id_konfigurasi" value="<?= $konfigurasi['id_konfigurasi'] ?>">
 <div class="form-group row">
-	<label class="col-3">Upload Logo Baru</label>
+	<label class="col-3">Upload New Logo</label>
 	<div class="col-6">
 		<input type="file" name="logo" value="<?= $konfigurasi['logo'] ?>" class="form-control">
 		<small class="text-secondary">Format: JPG, PNG, GIF</small>
@@ -17,7 +17,7 @@
 <div class="form-group row">
 	<label class="col-3"></label>
 	<div class="col-9">
-		<button type="submit" class="btn btn-success"><i class="fa fa-save"></i> Simpan</button>
+		<button type="submit" class="btn btn-success"><i class="fa fa-save"></i> Save</button>
 	</div>
 </div>
 

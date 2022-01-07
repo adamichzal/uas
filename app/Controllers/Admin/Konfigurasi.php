@@ -125,7 +125,7 @@ class Konfigurasi extends BaseController
             return redirect()->to(base_url('admin/konfigurasi/logo'));
         }
         // End validasi
-        $data = ['title'  => 'Update Logo Website',
+        $data = ['title'  => 'Update Web Logo',
             'konfigurasi' => $konfigurasi,
             'content'     => 'admin/konfigurasi/logo',
         ];
