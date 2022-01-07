@@ -65,7 +65,7 @@
 } else {
     echo date('H:i:s');
 } ?>">
-		<small class="text-secondary">Format <strong>HH:MM:SS</strong>. <br> FExample: <?= date('H:i:s') ?></small>
+		<small class="text-secondary">Format <strong>HH:MM:SS</strong>. <br> Example: <?= date('H:i:s') ?></small>
 	</div>
 </div>
 
