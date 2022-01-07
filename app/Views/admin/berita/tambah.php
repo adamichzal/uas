@@ -3,21 +3,21 @@
 ?>
 
 <div class="form-group row">
-	<label class="col-md-2">Judul Berita</label>
+	<label class="col-md-2">Title </label>
 	<div class="col-md-10">
 		<input type="text" name="judul_berita" class="form-control" value="<?= set_value('judul_berita') ?>" required>
 	</div>
 </div>
 
 <div class="form-group row">
-	<label class="col-md-2">Upload Gambar Berita</label>
+	<label class="col-md-2">Upload Image</label>
 	<div class="col-md-10">
 		<input type="file" name="gambar" class="form-control" value="<?= set_value('gambar') ?>">
 	</div>
 </div>
 
 <div class="form-group row">
-	<label class="col-md-2">Kategori, Jenis &amp; Status</label>
+	<label class="col-md-2">Category, Type &amp; Status</label>
 	<div class="col-md-2">
 		<select name="id_kategori" class="form-control">
 			<?php foreach ($kategori as $kategori) { ?>
@@ -26,7 +26,7 @@
 			</option>
 			<?php } ?>
 		</select>
-		<small class="text-secondary">Kategori</small>
+		<small class="text-secondary">Category</small>
 	</div>
 	<div class="col-md-2">
 		<select name="jenis_berita" class="form-control">
@@ -34,14 +34,14 @@
 			<option value="Layanan">Layanan</option>
 			<option value="Profil">Profil</option>
 		</select>
-		<small class="text-secondary">Jenis konten</small>
+		<small class="text-secondary">Type</small>
 	</div>
 	<div class="col-md-2">
 		<select name="status_berita" class="form-control">
 			<option value="Publish">Publish</option>
 			<option value="Draft">Draft</option>
 		</select>
-		<small class="text-secondary">Status publikasi</small>
+		<small class="text-secondary">Publication Status</small>
 	</div>
 	<div class="col-md-2">
 		<input type="text" name="icon" class="form-control" value="<?= set_value('icon') ?>">
@@ -50,7 +50,7 @@
 </div>
 
 <div class="form-group row">
-	<label class="col-md-2">Tanggal dan jam Publikasi</label>
+	<label class="col-md-2">Publication Date & Time</label>
 	<div class="col-md-4">
 		<input type="text" name="tanggal_publish" class="form-control tanggal" value="<?php if (isset($_POST['tanggal_publis'])) {
     echo set_value('tanggal_publish');
@@ -65,35 +65,28 @@
 } else {
     echo date('H:i:s');
 } ?>">
-		<small class="text-secondary">Format <strong>HH:MM:SS</strong>. Misal: <?= date('H:i:s') ?></small>
+		<small class="text-secondary">Format <strong>HH:MM:SS</strong>. Example: <?= date('H:i:s') ?></small>
 	</div>
 </div>
 
 <div class="form-group row">
-	<label class="col-md-2">Ringkasan</label>
+	<label class="col-md-2">Summary</label>
 	<div class="col-md-10">
 		<textarea name="ringkasan" class="form-control"><?= set_value('ringkasan') ?></textarea>
 	</div>
 </div>
 
 <div class="form-group row">
-	<label class="col-md-2">Isi Berita</label>
+	<label class="col-md-2">Contents</label>
 	<div class="col-md-10">
 		<textarea name="isi" class="form-control konten"><?= set_value('isi') ?></textarea>
 	</div>
 </div>
 
 <div class="form-group row">
-	<label class="col-md-2">Keyword Berita (untuk SEO Google)</label>
-	<div class="col-md-10">
-		<textarea name="keywords" class="form-control"><?= set_value('keywords') ?></textarea>
-	</div>
-</div>
-
-<div class="form-group row">
 	<label class="col-md-2"></label>
 	<div class="col-md-10">
-		<button type="submit" class="btn btn-success"><i class="fa fa-save"></i> Simpan</button>
+		<button type="submit" class="btn btn-success"><i class="fa fa-save"></i> Save</button>
 	</div>
 </div>
 
