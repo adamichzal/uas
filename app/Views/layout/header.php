@@ -51,7 +51,7 @@ $menu_layanan = $menu->layanan();
       </nav><!-- .navbar -->
 
       <a href="<?= base_url('login') ?>" class="appointment-btn scrollto">
-        Login <span class="d-none d-md-inline">Admin</span>
+        Admin
       </a>
 
     </div>
