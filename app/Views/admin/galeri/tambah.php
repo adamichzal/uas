@@ -61,7 +61,7 @@
 <div class="form-group row">
 	<label class="col-md-2"></label>
 	<div class="col-md-10">
-		<button type="submit" class="btn btn-success"><i class="fa fa-save"></i> Simpan</button>
+		<button type="submit" class="btn btn-success"><i class="fa fa-save"></i> Save</button>
 	</div>
 </div>
 
