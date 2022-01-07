@@ -57,7 +57,7 @@
 } else {
     echo date('d-m-Y');
 } ?>">
-		<small class="text-secondary">Format <strong>dd-mm-yyyy</strong>. Misal: <?= date('d-m-Y') ?></small>
+		<small class="text-secondary">Format <strong>dd-mm-yyyy</strong>. <br> Example: <?= date('d-m-Y') ?></small>
 	</div>
 	<div class="col-md-2">
 		<input type="text" name="jam" class="form-control jam" value="<?php if (isset($_POST['jam'])) {
@@ -65,7 +65,7 @@
 } else {
     echo date('H:i:s');
 } ?>">
-		<small class="text-secondary">Format <strong>HH:MM:SS</strong>. Example: <?= date('H:i:s') ?></small>
+		<small class="text-secondary">Format <strong>HH:MM:SS</strong>. <br> FExample: <?= date('H:i:s') ?></small>
 	</div>
 </div>
 
