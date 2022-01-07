@@ -10,7 +10,7 @@ echo csrf_field();
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h4 class="modal-title">Tambah Baru</h4>
+				<h4 class="modal-title">Add Video</h4>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -18,7 +18,7 @@ echo csrf_field();
 			<div class="modal-body">
 
 				<div class="form-group row">
-					<label class="col-3">Nama Video</label>
+					<label class="col-3">Video Name</label>
 					<div class="col-9">
 						<input type="text" name="judul" class="form-control" placeholder="Nama video" value="<?= set_value('judul') ?>" required>
 					</div>
@@ -28,12 +28,12 @@ echo csrf_field();
 					<label class="col-3">Link Video Youtube</label>
 					<div class="col-9">
 						<input type="text" name="video" class="form-control" placeholder="Link video" value="<?= set_value('video') ?>" required>
-						<small class="text-secondary">Contoh: <span class="text-warning">https://www.youtube.com/watch?v=</span><strong class="text-danger">jVr6CYLhjQo</strong>. Ambil kode yang warna <strong class="text-danger">Merah</strong></small>
+						<small class="text-secondary">Example: <span class="text-warning">https://www.youtube.com/watch?v=</span><strong class="text-danger">jVr6CYLhjQo</strong>. Take the color code <strong class="text-danger">Merah</strong></small>
 					</div>
 				</div>
 
 				<div class="form-group row">
-					<label class="col-3">Keterangan</label>
+					<label class="col-3">Description</label>
 					<div class="col-9">
 						<textarea name="keterangan" class="form-control"><?= set_value('keterangan') ?></textarea>
 					</div>
@@ -42,7 +42,7 @@ echo csrf_field();
 			</div>
 			<div class="modal-footer justify-content-between">
 				<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-				<button type="submit" class="btn btn-success"><i class="fa fa-save"></i> Simpan</button>
+				<button type="submit" class="btn btn-success"><i class="fa fa-save"></i> Save</button>
 			</div>
 		</div>
 		<!-- /.modal-content -->
