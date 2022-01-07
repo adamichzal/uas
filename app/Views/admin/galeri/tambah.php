@@ -3,21 +3,21 @@
 ?>
 
 <div class="form-group row">
-	<label class="col-md-2">Judul Galeri</label>
+	<label class="col-md-2">Name</label>
 	<div class="col-md-10">
 		<input type="text" name="judul_galeri" class="form-control" value="<?= set_value('judul_galeri') ?>" required>
 	</div>
 </div>
 
 <div class="form-group row">
-	<label class="col-md-2">Upload Gambar Galeri</label>
+	<label class="col-md-2">Upload Image</label>
 	<div class="col-md-10">
 		<input type="file" name="gambar" class="form-control" value="<?= set_value('gambar') ?>">
 	</div>
 </div>
 
 <div class="form-group row">
-	<label class="col-md-2">Kategori, Jenis &amp; Status</label>
+	<label class="col-md-2">Category, Type &amp; Status</label>
 	<div class="col-md-3">
 		<select name="id_kategori_galeri" class="form-control">
 			<?php foreach ($kategori_galeri as $kategori_galeri) { ?>
@@ -37,22 +37,22 @@
 	</div>
 	<div class="col-md-3">
 		<select name="status_text" class="form-control">
-			<option value="Ya">Aktif</option>
-			<option value="Tidak">Tidak Aktif</option>
+			<option value="Ya">Available</option>
+			<option value="Tidak">Unavailable</option>
 		</select>
 		<small class="text-secondary">Text pada slider</small>
 	</div>
 </div>
 
 <div class="form-group row">
-	<label class="col-md-2">Isi Galeri</label>
+	<label class="col-md-2">Description</label>
 	<div class="col-md-10">
 		<textarea name="isi" class="form-control konten"><?= set_value('isi') ?></textarea>
 	</div>
 </div>
 
 <div class="form-group row">
-	<label class="col-md-2">Link/URL untuk Banner</label>
+	<label class="col-md-2">Link/URL for Banner</label>
 	<div class="col-md-10">
 		<input type="text" name="website" class="form-control" value="<?= set_value('website') ?>">
 	</div>
