@@ -32,7 +32,7 @@ $m_dasbor = new Dasbor_model();
       <span class="info-box-icon bg-info elevation-1"><i class="fas fa-images"></i></span>
 
       <div class="info-box-content">
-        <span class="info-box-text">Catalogue</span>
+        <span class="info-box-text">Galeri &amp; Banner</span>
         <span class="info-box-number">
           <?= angka($m_dasbor->galeri()) ?>
           <small>Konten</small>
