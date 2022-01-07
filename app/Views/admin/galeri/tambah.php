@@ -45,7 +45,7 @@
 </div>
 
 <div class="form-group row">
-	<label class="col-md-2">Isi Galeri</label>
+	<label class="col-md-2">Description</label>
 	<div class="col-md-10">
 		<textarea name="isi" class="form-control konten"><?= set_value('isi') ?></textarea>
 	</div>
