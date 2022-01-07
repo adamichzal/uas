@@ -1,18 +1,18 @@
 <p>
-	<a href="<?= base_url('admin/berita/tambah') ?>" class="btn btn-success">
-		<i class="fa fa-plus"></i> Tambah Baru
+	<a href="<?= base_url('admin/berita/tambah') ?>" class="btn btn-success" style="background-color:#c4c0c1; border:none">
+		<i class="fa fa-plus"></i> Add New Content
 	</a>
 </p>
 
 <table class="table table-bordered" id="example1">
 	<thead>
 		<tr>
-			<th width="5%">No</th>
-			<th width="8%">Gambar</th>
-			<th width="40%">Judul</th>
-			<th width="15%">Kategori - Jenis</th>
-			<th width="15%">Author - Status</th>
-			<th></th>
+			<th style="text-align:center; width="5%">No</th>
+			<th style="text-align:center; width="8%">Image</th>
+			<th style="text-align:center; width="40%">Title</th>
+			<th style="text-align:center; width="15%">Category </th>
+			<th style="text-align:center; width="15%">Author</th>
+			<th style="text-align:center; width="15%">Action</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -59,7 +59,7 @@ foreach ($berita as $berita) { ?>
 				</small>
 			</td>
 			<td>
-				<a href="<?= base_url('berita/read/' . $berita['slug_berita']) ?>" class="btn btn-info btn-sm" target="_blank"><i class="fa fa-eye"></i> Baca</a>
+				<a href="<?= base_url('berita/read/' . $berita['slug_berita']) ?>" class="btn btn-info btn-sm" target="_blank"><i class="fa fa-eye"></i> </a>
 				<a href="<?= base_url('admin/berita/edit/' . $berita['id_berita']) ?>" class="btn btn-success btn-sm"><i class="fa fa-edit"></i></a>
 				<a href="<?= base_url('admin/berita/delete/' . $berita['id_berita']) ?>" class="btn btn-dark btn-sm" onclick="confirmation(event)"><i class="fa fa-trash"></i></a>
 			</td>

@@ -52,19 +52,19 @@ $site        = $konfigurasi->listing();
               <li class="nav-item">
                 <a href="<?= base_url('admin/berita') ?>" class="nav-link">
                   <i class="fas fa-table nav-icon"></i>
-                  <p>All Data</p>
+                  <p>All Content</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="<?= base_url('admin/berita/tambah') ?>" class="nav-link">
                   <i class="fas fa-plus nav-icon"></i>
-                  <p>Add Data</p>
+                  <p>Add Content</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="<?= base_url('admin/kategori') ?>" class="nav-link">
                   <i class="fas fa-tags nav-icon"></i>
-                  <p>Category</p>
+                  <p>Category Content</p>
                 </a>
               </li>
             </ul>
@@ -81,45 +81,29 @@ $site        = $konfigurasi->listing();
               <li class="nav-item">
                 <a href="<?= base_url('admin/galeri') ?>" class="nav-link">
                   <i class="fas fa-table nav-icon"></i>
-                  <p>All Data</p>
+                  <p>All Catalogue</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="<?= base_url('admin/galeri/tambah') ?>" class="nav-link">
                   <i class="fas fa-plus nav-icon"></i>
-                  <p>Add Data</p>
+                  <p>Add Catalogue</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="<?= base_url('admin/kategori_galeri') ?>" class="nav-link">
                   <i class="fas fa-tags nav-icon"></i>
-                  <p>Category</p>
+                  <p>Category Catalogue</p>
                 </a>
               </li>
             </ul>
           </li>
           <!-- Video -->
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="<?= base_url('admin/video') ?>" class="nav-link">
               <i class="nav-icon fab fa-youtube"></i>
-              <p>Catalogue Review
-                <i class="fas fa-angle-left right"></i>
-              </p>
+              <p>Catalogue Review</p>
             </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="<?= base_url('admin/video') ?>" class="nav-link">
-                  <i class="fas fa-table nav-icon"></i>
-                  <p>All Video</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="<?= base_url('admin/video/tambah') ?>" class="nav-link">
-                  <i class="fas fa-plus nav-icon"></i>
-                  <p>Add Video</p>
-                </a>
-              </li>
-            </ul>
           </li>
           <!-- pengguna -->
           <li class="nav-item">
