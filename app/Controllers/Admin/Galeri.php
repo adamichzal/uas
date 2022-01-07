@@ -16,7 +16,7 @@ class Galeri extends BaseController
         $galeri            = $m_galeri->listing();
         $total             = $m_galeri->total();
 
-        $data = ['title' => 'Galeri dan Banner (' . $total . ')',
+        $data = ['title' => 'Catalogue',
             'galeri'     => $galeri,
             'content'    => 'admin/galeri/index',
         ];

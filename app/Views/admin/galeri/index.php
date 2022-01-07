@@ -1,18 +1,18 @@
 <p>
-	<a href="<?= base_url('admin/galeri/tambah') ?>" class="btn btn-success">
-		<i class="fa fa-plus"></i> Tambah Baru
+	<a href="<?= base_url('admin/galeri/tambah') ?>" class="btn btn-success" style="background-color:#c4c0c1; border:none">
+		<i class="fa fa-plus"></i> Add New Content
 	</a>
 </p>
 
 <table class="table table-bordered" id="example1">
 	<thead>
 		<tr>
-			<th width="5%">No</th>
-			<th width="8%">Gambar</th>
-			<th width="45%">Judul</th>
-			<th width="15%">Kategori &amp; Jenis</th>
-			<th width="15%">Author</th>
-			<th></th>
+			<th style="text-align:center; width="5%">No</th>
+			<th style="text-align:center; width="8%">Image</th>
+			<th style="text-align:center; width="45%">Title</th>
+			<th style="text-align:center; width="15%">Category</th>
+			<th style="text-align:center; width="15%">Author</th>
+            <th style="text-align:center; width="15%">Action</th>
 		</tr>
 	</thead>
 	<tbody>
