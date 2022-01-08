@@ -22,7 +22,7 @@ $menu_layanan = $menu->layanan();
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medicio-free-bootstrap-theme/ -->
-        Designed by <a href="https://bootstrapmade.com/">Kelompok Dulu Sayang</a>
+        Designed by <a href="<?= base_url() ?>">Kelompok Dulu Sayang</a>
       </div>
     </div>
   </footer><!-- End Footer -->
